@@ -1,362 +1,260 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Created By Capcui -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB SERVER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Private<span> Blog</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
 
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, Let us introduce you</div>
+                <div class="text-2">Ahmad Deni Setiawan & Mhd.Raihansyah</div>
+                <div class="text-3">And we are a <span class="typing"></span></div>
+                <a href="http://wa.me/628887737937/?text=Hai%2CSaya%20mengetahui%20layanan%20dari%20irfan.capcui.com">Whatsapp us</a>
+            </div>
+        </div>
+    </section>
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Sushi | CORPS-BAGDY2</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="" class="nav__logo">
-                    <img src="assets/img/logo.png" alt="logo image">
-                    Sushi
-                </a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">Tentang Kami</a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#popular" class="nav__link">Popular</a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#recently" class="nav__link">Menu Baru</a>
-                        </li>
-                    </ul>
-
-                    <!-- Close Button -->
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
-                    </div>
-
-                    <img src="assets/img/leaf-branch-4.png" alt="nav image" class="nav__img-1">
-                    <img src="assets/img/leaf-branch-3.png" alt="nav image" class="nav__img-2">
-
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About us</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/deni.png" alt="">
+                    <img src="images/raihan.png" alt="">
                 </div>
+                <div class="column right">
+                    <div class="text">we are a <span class="typing-2"></span></div>
+                    <p>Assalamu’alaikum Wr.Wb, Perkenalkan saya ahmad deni setiawan dan teman saya mhd. raihansyah dan kami yang sudah menetap selama 200 tahun di medan, Indonesia. Konsen kami terhadap dunia digital membuat kami terus mempelajari tentang website khususnya dalam dunia desain. Selain itu kami juga menekuni bidang advertising dan social media. 
+                        Kami senang memiliki banyak teman karena itu jangan lupa untuk saling menyapa.
+</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="nav__buttons">
-                    <!-- Theme Change Button -->
-                    <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-                    <!-- Toggle button -->
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="ri-apps-2-line"></i>
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Our Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>Membangun Website yang responsive untuk menunjang perusahaan Anda semakin terpercaya dan eksis.</p>
                     </div>
                 </div>
-            </nav>
-        </header>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Advertising</div>
+                        <p>Omset Anda Akan meningkat dengan keahlian advertising dari kami sebab menggunakan digital advertising.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Social Media Exp</div>
+                        <p>Mendalami social media sejak 2010 dan telah menangani klien yang bergerak di E-Commerce maupun Branding Perusahaan.</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <img src="assets/img/home-sushi-rolls.png" alt="home image" class="home__img">
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Our skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Our creative skills & experiences.</div>
+                    <p>Berikut ini adalah beberapa jenis keahlian kami bila disimpulkan dengan persentasi. Grafik tersebut juga akan semakin meningkat sebab disela-sela kesibukan, kami juga tidak lupa untuk terus mengasah kemampuan pada bidang tersebut dengan mengikuti course. Hal itu kami lakukan demi meningkatkan kemampuan personal kami.</p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Word Press</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <div class="home__data">
-                        <h1 class="home__title">
-                            Delicious Taste
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My teams</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/deni.png" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/raihan.png" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/deni.png" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/raihan.png" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/deni.png" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                            <div>
-                                <img src="assets/img/home-sushi-title.png" alt="home image">
-                                Sushi Food
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact us</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Bila anda ingin mengetahui kami lebih lanjut bisa menghubungi kontak berikut ini. kami sangat berterimasih bila kita bisa saling suport.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Mhd.Raihansyah & Ahmad deni setiawan</div>
                             </div>
-                        </h1>
-
-                        <p class="home__description">
-                        Nikmati malam indah anda dengan sushi terbaik
-                        dari produk kami.
-                        </p>
-
-                        <a href="#" class="button">
-                            Pesan Sekarang <i class="ri-arrow-right-line"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <img src="assets/img/leaf-branch-2.png" alt="home leaf" class="home__leaf-1">
-                <img src="assets/img/leaf-branch-4.png" alt="home leaf" class="home__leaf-2">
-
-            </section>
-
-            <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
-                <div class="about__container container grid">
-                    <div class="about__data">
-                        <span class="section__subtitle">
-                            Tentang Kami
-                        </span>
-                        <h2 class="section__title about__title">
-                            <div>
-                                Kami Membuat 
-                                <img src="assets/img/about-sushi-title.png" alt="about image">
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Medan, Indonesia</div>
                             </div>
-                            Makanan yang sehat
-                        </h2>
-
-                        <p class="about__description">
-                            Makanan datang kepada kita dari sanak saudara kita, 
-                            ia juga memiliki budaya dan ia memiliki sejarah yang berlalu 
-                            turun temurun.
-                        </p>
-                    </div>
-
-                    <img src="assets/img/about-sushi.png" alt="about image" class="about__img">
-                </div>
-
-                <img src="assets/img/leaf-branch-1.png" alt="about image" class="about__leaf">
-            </section>
-
-            <!--==================== POPULAR ====================-->
-            <section class="popular section" id="popular">
-                <span class="section__subtitle">
-                    Hidangan Terbaik
-                </span>
-                <h2 class="section__title">
-                    Popular Dishes
-                </h2>
-
-                <div class="popular__container container grid">
-                    <article class="popular__card">
-                        <img src="assets/img/popular-onigiri.png" alt="popular image" class="popular__img">
-
-                        <h3 class="popular name">Onigiri</h3>
-                            <span class="popular__description">
-                                Japanese Dish
-                            </span>
-
-                            <span class="popular__price">Rp 950.000</span>
-                                <button class="popular__button">
-                                    <i class="ri-shopping-bag-line"></i>
-                                </button>
-                    </article>
-
-                    <article class="popular__card">
-                        <img src="assets/img/popular-spring-rols.png" alt="popular image" class="popular__img">
-
-                        <h3 class="popular name">Spring Rolls</h3>
-                            <span class="popular__description">
-                                Japanese Dish
-                            </span>
-
-                            <span class="popular__price">Rp 700.000</span>
-                                <button class="popular__button">
-                                    <i class="ri-shopping-bag-line"></i>
-                                </button>
-                    </article>
-
-                    <article class="popular__card">
-                        <img src="assets/img/popular-sushi-rolls.png" alt="popular image" class="popular__img">
-
-                        <h3 class="popular name">Sushi Rolls</h3>
-                            <span class="popular__description">
-                                Japanese Dish
-                            </span>
-
-                            <span class="popular__price">Rp 600.000</span>
-                                <button class="popular__button">
-                                    <i class="ri-shopping-bag-line"></i>
-                                </button>
-                    </article>
-                </div>
-            </section>
-
-            <!--==================== RECENTLY ====================-->
-            <section class="recently section" id="recently">
-                <div class="recently__container container grid">
-                    <div class="recently__data">
-                        <span class="section__subtitle">
-                            Menu baru yang ditambahkan
-                        </span>
-                        <h2 class="section__title">
-                            Sushi Samurai <br>
-                            Salmón Cheese
-                        </h2>
-
-                        <p class="recently__description">
-                            Lihatlah apa yang baru. Hidangan yang mewah,
-                            Nikmati dan berbahagialah.
-                        </p>
-
-                        <a href="#" class="button">
-                            Pesan Sekarang <i class="ri-arrow-right-line"></i>
-                        </a>
-
-                        <img src="assets/img/spinach-leaf.png" alt="recently image" class="recently__data-img">
-                    </div>
-
-                    <img src="assets/img/recently-salmon-sushi.png" alt="recently image" class="recently__img">
-                </div>
-
-                <img src="assets/img/leaf-branch-2.png" alt="recently image" class="recently__leaf-1">
-                <img src="assets/img/leaf-branch-3.png" alt="recently image" class="recently__leaf-2">
-
-            </section>
-
-            <!--==================== NEWSLETTER ====================-->
-            <section class="newsletter section">
-                <div class="newsletter__container container">
-                    <div class="newsletter__content grid">
-                        <img src="assets/img/newsletter-sushi.png" alt="newsletter image" class="newsletter__img">
-
-                        <div class="newsletter__data">
-                            <span class="section__subtitle"> Newsletter</span>
-                            <h2 class="section__title">
-                                Ikuti CORPS-BAGDY2 <br>
-                                untuk melihat beberapa pembaruan
-                            </h2>
-
-                            <form action="" class="newsletter__form">
-                                <input type="email" placeholder="Enter email" class="newsletter__input">
-
-                                <button class="button newsletter__button">
-                                    Ikuti <i class="ri-send-plane-line"></i>
-                                </button>
-                            </form>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">radenofficial@gmail.com</div>
+                            </div>
                         </div>
                     </div>
-
-                    <img src="assets/img/spinach-leaf.png" alt="newsletter__img" class="newsletter__spinach">
                 </div>
-                
-            </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__container container grid">
-                <div>
-                    <a href="#" class="footer__logo">
-                        <img src="assets/img/logo.png" alt="logo image">
-                        Sushi
-                    </a>
-
-                    <p class="footer__description">
-                        Food for the body is not <br>
-                        enough. There must be food <br>
-                        for the soul.
-                    </p>
+                <div class="column right">
+                    <div class="text">Message us</div>
+                    <form action="http://wa.me/628887737937/?text=Hai%2CSaya%20ingin%20mengetahui%20produk%20layanan%20dari%20irfan.capcui.com">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
                 </div>
-
-                <div class="footer__content">
-                    <div>
-                        <h3 class="footer__title">Main Menu</h3>
-                        <ul class="footer__links">
-                            <li>
-                                <a href="#" class="footer__link">Tentang kami</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Menu</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Penawaaran</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Event</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3 class="footer__title">Informasi</h3>
-                        <ul class="footer__links">
-                            <li>
-                                <a href="#" class="footer__link">Contact</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Order & Returns</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Video</a>
-                            </li>
-                            <li>
-                                <a href="#" class="footer__link">Reservasi</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3 class="footer__title">Alamat</h3>
-                        <ul class="footer__links">
-                            <li class="footer__information">
-                                Jl.Binjai Km.10,5 <br>
-                                Medan.&nbsp; Indonesia.
-                            </li>
-                            <li class="footer__information">
-                                10:00 - 23:00
-                            </li>
-                           
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h3 class="footer__title">Media Sosial</h3>
-                        <ul class="footer__social">
-                           <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
-                            <i class="ri-facebook-box-fill"></i>
-                           </a> 
-
-                           <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
-                            <i class="ri-instagram-fill"></i>
-                           </a> 
-
-                           <a href="https://twitter.com/" target="_blank" class="footer__social-link">
-                            <i class="ri-twitter-fill"></i>
-                           </a> 
-
-                        </ul>
-                    </div>
-                </div>
-
-                <img src="assets/img/spring-onion.png" alt="footer image" class="footer__onion">
-                <img src="assets/img/spring-onion.png" alt="footer image" class="footer__onion-1">
-                <img src="assets/img/spinach-leaf.png" alt="footer image" class="footer__spinach">
-                <img src="assets/img/spinach-leaf.png" alt="footer image" class="footer__spinach-1">
-                <img src="assets/img/leaf-branch-4.png" alt="footer image" class="footer__leaf">
-
             </div>
+        </div>
+    </section>
 
-            <div class="footer__info container">
-                <div class="footer__card">
-                    <img src="assets/img/footer-card-1.png" alt="footer image">
-                    <img src="assets/img/footer-card-2.png" alt="footer image">
-                    <img src="assets/img/footer-card-3.png" alt="footer image">
-                    <img src="assets/img/footer-card-4.png" alt="footer image">
-                </div>
+    <!-- footer section start -->
+    <footer>
+        <span>Created By RADEN | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+    </footer>
 
-                <span class="footer__copy">
-                    &#169; Copyright CORPS-BAGDY2. All rights reserved
-                </span>
-            </div>
-        </footer>
-
-        <!--========== SCROLL UP ==========-->
-        <a href="#" class="scrollup" id="scroll-up">
-           <i class="ri-arrow-up-line"></i>
-        </a>
-
-        <!--=============== SCROLLREVEAL ===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
-
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>
